@@ -1,0 +1,2 @@
+# hangman
+Simple js project
