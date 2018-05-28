@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+    color: lightgrey;
+    font-size: 28px;
+    font-family: 'Inconsolata';
+	font-weight: 700;
+}
+
+#container {
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#board {
+    width: 900px;
+    margin: 50px 0;
+    min-height: 60px;
+    text-align: center;
+    font-size: 48px;
+    word-spacing: 10px;
+    min-height: 60px;
+}
+
+#gibbet {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#alphabet {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+.letter {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    cursor: pointer;
+    float: left;
+    border-radius: 15px;
+}
+
+.letter:hover {
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset {
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover
+{
+	color:white;
+}
+.lose {
+    color: red;
+}
+
+.lose:hover {
+    color: white;
+}
