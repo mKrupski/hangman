@@ -1,2 +1,2 @@
 # hangman
-Simple js project
+Simple js project from miroslawzelent.pl course.
