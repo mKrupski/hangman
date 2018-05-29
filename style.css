@@ -68,7 +68,3 @@ body {
 .lose {
     color: red;
 }
-
-.lose:hover {
-    color: white;
-}
